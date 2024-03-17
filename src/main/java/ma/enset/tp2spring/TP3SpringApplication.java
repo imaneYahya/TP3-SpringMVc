@@ -24,7 +24,7 @@ public class TP3SpringApplication {
         SpringApplication.run(TP3SpringApplication.class, args);
     }
 
-    @Bean
+   // @Bean
     CommandLineRunner start(HospitalService hospitalService ,MedecinRepository medecinRepository,PatientRepository patientRepository, RendezVousRepository rendezVousRepository, ConsultationRepository consultationRepository) {
         return args -> {
            /* Stream.of("ahmed","karim","fatima","ahmed","karim","fatima","ahmed","karim","fatima","ahmed","karim","fatima","ahmed","karim","fatima","ahmed","karim","fatima").forEach(name->{
